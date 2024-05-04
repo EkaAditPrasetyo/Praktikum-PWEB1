@@ -10,7 +10,7 @@ HTML disinggung-singgung adalah bahasa pemrograman yang paling sederhana dan mud
 
 ## a. Awal atau Basic HTML
 
-Permulaan saat mencoba HTML adalah membuat struktur HTML itu sendiri dengan deklarasi HTML menekan tanda "!" lalu klik enter terbukalah struktur HTML yang isinya elemen html pembuka, title, body dan html penutu. Lalu dibagian body kita dapat membuat judul dan paragraf. Dalam pembuatan judul kita dapat mengatur ukuran font yang akan kita butuhkan mulai dari h1 sampai h7. Dimulai dari h1 yaitu yang terbesar lalu h7 yang terkecil ukurannya. Yang harus diperhatikan adalah saat membuat tag harus terdiri dari tag pembuka dan tag penutup.
+Permulaan saat mencoba HTML adalah membuat struktur HTML itu sendiri dengan deklarasi HTML menekan tanda "!" lalu klik enter terbukalah struktur HTML yang isinya elemen html pembuka, title, body dan html penutu. Lalu dibagian body kita dapat membuat judul dan paragraf. Dalam pembuatan judul kita dapat mengatur ukuran font yang akan kita butuhkan mulai dari h1 sampai h6. Dimulai dari h1 yaitu yang terbesar lalu h6 yang terkecil ukurannya. Yang harus diperhatikan adalah saat membuat tag harus terdiri dari tag pembuka dan tag penutup.
 
 Program :
 
