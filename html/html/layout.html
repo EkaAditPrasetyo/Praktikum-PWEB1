@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+</head>
+<body>
+    <!--Tata letak kotak fleksibel CSS-->
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ebcde7;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(34, 33, 36);
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #dad2f9;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f9f1d5;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #9fa7dd;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+
+
+<h2>CSS Layout Flexbox</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<header>
+  <h2>Newjeans</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Newjeans</a></li>
+      <li><a href="#">Bunnies</a></li>
+      <li><a href="#">Bernice</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Newjeans</h1>
+    <p>Newjeans adalah dedikasi grup multi talenta yang mendunia karna bakat dan visual.</p>
+    <p>Setiap mereka merilis lagu, selalu menjadi topik hangat dan trending di sosial media. Tangga lagu dapat mereka naiki dengan mudah.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+</body>
+</html>
