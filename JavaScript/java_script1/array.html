@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!--membuat array-->
+<h1>JavaScript Arrays Illiet</h1>
+
+<p id="demo"></p>
+
+<script>
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+document.getElementById("demo").innerHTML = cars;
+</script>
+
+<!--array method array length-->
+<h1>JavaScript Arrays Illiet</h1>
+<h2>The length Property</h2>
+
+<p>The length property returns the length of an array:</p>
+
+<p id="cemo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let size = fruits.length;
+document.getElementById("cemo").innerHTML = size;
+</script>
+
+<!--array search-->
+<h1>JavaScript Arrays Illiet</h1>
+<h2>The indexOf() Method</h2>
+
+<p id="jojo"></p>
+
+<script>
+const fruit = ["Avocado", "Kiwi", "Banana", "Plam"];
+let position = fruit.indexOf("Kiwi") + 1;
+
+document.getElementById("jojo").innerHTML = "Kiwi is found in position " + position;
+</script>
+
+<!--array sort-->
+<h1>JavaScript Arrays Illiet</h1>
+<h2>The toSorted() Method</h2>
+
+<p id="bobo"></p>
+
+<script>
+const months = ["Jan", "Feb", "Mar", "Apr"];
+const sorted = months.toSorted();
+
+document.getElementById("bobo").innerHTML = sorted;
+</script>
+
+<!--array iteration-->
+<h1>JavaScript Arrays Illiet</h1>
+<h2>The forEach() Method</h2>
+
+<p>Call a function once for each array element:</p>
+
+<p id="remo"></p>
+
+<script>
+const numbers = [55, 9, 7, 14, 35];
+
+let txt = "";
+numbers.forEach(myFunction);
+document.getElementById("remo").innerHTML = txt;
+
+function myFunction(value) {
+  txt += value + "<br>"; 
+}
+</script>
+
+<!--array const-->
+<h2>JavaScript const Illiet</h2>
+
+<p>You can NOT reassign a constant array:</p>
+
+<p id="bemo"></p>
+
+<script>
+try {
+  const cars = ["Saab", "Volvo", "BMW"];
+  cars = ["Toyota", "Volvo", "Audi"];
+}
+catch (err) {
+  document.getElementById("bemo").innerHTML = err;
+}
+</script>
+
+</body>
+</html>

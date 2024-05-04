@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The JavaScript <i>this</i> Keyword Illiet</h1>
+
+<p>In this example, <b>this</b> refers to the <b>person object</b>.</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+const person = {
+  firstName  : "Illiet",
+  lastName   : "Wiliye",
+  id     : 5566,
+  myFunction : function() {
+    return this;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.myFunction();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create Object from JSON String Illiet &hearts;</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = '{"employees":[' +
+'{"firstName":"Gheo","lastName":"Lijetho" },' +
+'{"firstName":"Bargen","lastName":"Suepiyoko" },' +
+'{"firstName":"Tartere","lastName":"Hanesho" }]}';
+
+const obj = JSON.parse(text);
+document.getElementById("demo").innerHTML =
+obj.employees[0].firstName + " " + obj.employees[0].lastName;
+</script>
+
+</body>
+</html>

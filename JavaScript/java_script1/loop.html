@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--loop for-->
+<h2>JavaScript For Loop Illiet</h2>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+<!--loop for in-->
+<h2>JavaScript For In Loop Illiet</h2>
+<p>The for in statement loops through the properties of an object:</p>
+
+<p id="lemo"></p>
+
+<script>
+const person = {fname:"Illiet", lname:"Wiliye", age:18}; 
+
+let txt = "";
+for (let x in person) {
+  txt += person[x] + " ";
+}
+
+document.getElementById("lemo").innerHTML = txt;
+</script>
+
+<!--loop for of-->
+<h2>JavaScript For Of Loop Illiet</h2>
+<p>The for of statement loops through the values of any iterable object:</p>
+
+<p id="pemo"></p>
+
+<script>
+const cars = ["BMW", "Volvo", "Mini"];
+
+let toxt = "";
+for (let x of cars) {
+  toxt += x + "<br>";
+}
+
+document.getElementById("pemo").innerHTML = toxt;
+</script>
+
+<!--loop while-->
+<h2>JavaScript While Loop Illiet</h2>
+
+<p id="semo"></p>
+
+<script>
+let tixt = "";
+let i = 0;
+while (i < 10) {
+  tixt += "<br>The number is " + i;
+  i++;
+}
+document.getElementById("semo").innerHTML = tixt;
+</script>
+
+</body>
+</html>
